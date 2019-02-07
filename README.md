@@ -47,8 +47,8 @@ Keep probability        | 0.55   |
 
 ## Observations
 
-1.better model performance with 91% validation accuracy.  
-2.Sample output  
+1. better model performance with 91% validation accuracy.  
+2. Sample output  
 
  - Input  
     - Word Ids:      [120, 172, 10, 36, 151, 179, 186]  
