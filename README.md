@@ -1,21 +1,26 @@
 # Language Translator (English - French)
 This project uses sequence to sequence model of recurrent neural network to translate any piece of English text to French. I have used recurrent nets because while training on huge data, recurrent nets actually predict the outcome a lot better than any normal machine learning models. In this specific model, the data first passes through an encoder, comes out as an understanding and passes to a decoder. The decoder generates the output.
 
-##### *** This project will throw errors if trained on CPU instead of GPU ***
-
-![Terminal screen_error](https://github.com/Satyaki0924/language-translation-english-to-french/blob/master/res/lt_error.png?raw=true "Terminalerror")
-
-### This project is configured for Linux and uses python3
-To run this project, open up your bash terminal and write
+## Installation
+To run this project, following library need to be installed inside a local virtual environment
 
 ```
-chmod -R 777 setup.sh
+conda install numpy
+conda install pandas
+conda install matplotlib
+conda install tensorflow
 ```
-This will set up the project enviornment for you. This must be run with administrator rights.
+## Running the project
+To run this project, first download the notebook file(.ipynb) and extract it. Then set up your conda virtual environment. You may take help from interet for how to setup conda virtual environment.
 
+once you set up virtual enviroment. start the notebook by running the following command in Command prompt(windows).
 ```
-./setup.sh
+activate environment_name
+jupyter notebook
 ```
+You will be redirected to a browser tab. Navigate to the notebook file location through the notebook browser and open it.
+
+
 
 #### * Virtual enviornment will be setup and activated for you
 
