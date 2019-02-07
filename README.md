@@ -60,4 +60,3 @@ Keep probability        | 0.55   |
 
 
 ### Author: Sanjeev kumar
-#### *** This project is strictly for learning purposes only. **
