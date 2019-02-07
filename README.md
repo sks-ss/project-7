@@ -3,7 +3,7 @@ This project uses sequence to sequence model of recurrent neural network to tran
 
 ## How to view the project
 1. Simply open the notebook file (dlnd_language_translation_acad.ipynb) in the project by clicking it. 
-2. If it is showing any error, may be bacause of slow intenet or other issue open the link
+2. If it is showing any error, may be bacause of slow intenet or other issue open the below link
  
       [https://nbviewer.jupyter.org/github/kumar-sam/project-7/blob/master/dlnd_language_translation_acad.ipynb](https://nbviewer.jupyter.org/github/kumar-sam/project-7/blob/master/dlnd_language_translation_acad.ipynb) 
 
