@@ -51,12 +51,12 @@ Keep probability        | 0.55   |
 2.Sample output  
 
  Input  
-   Word Ids:      [120, 172, 10, 36, 151, 179, 186]  
-   English Words: ['he', 'saw', 'a', 'old', 'yellow', 'truck', '.']  
+   &nbsp &nbsp Word Ids:      [120, 172, 10, 36, 151, 179, 186]  
+   &nbsp &nbsp English Words: ['he', 'saw', 'a', 'old', 'yellow', 'truck', '.']  
 
  Prediction  
-   Word Ids:      [182, 99, 65, 195, 282, 5, 243, 69, 1]  
-   French Words: il a de visiter le camion automne . <EOS>  
+  &nbsp &nbsp Word Ids:      [182, 99, 65, 195, 282, 5, 243, 69, 1]  
+  &nbsp &nbsp French Words: il a de visiter le camion automne . <EOS>  
 
 
 ### Author: Sanjeev kumar
