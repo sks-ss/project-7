@@ -60,5 +60,5 @@ The outcome should look something like this:
 
 ![Plot](https://github.com/Satyaki0924/language-translation-english-to-french/blob/master/res/plot.png?raw=true "Plot")
 
-### Author: Satyaki Sanyal
+### Author: Sanjeev kumar
 #### *** This project is strictly for educational purposes only. **
