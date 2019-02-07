@@ -31,7 +31,7 @@ once you open the notebook file, just go cell by cell and run it by
 Ctrl + Enter
 Shift + Enter
 ```
-
+ 
 ### Hyperparameters
 
 Hyperparameter          | Number |
