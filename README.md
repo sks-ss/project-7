@@ -1,6 +1,12 @@
 # Language Translator (English - French)
 This project uses sequence to sequence model of recurrent neural network to translate any piece of English text to French. I have used recurrent nets because while training on huge data, recurrent nets actually predict the outcome a lot better than any normal machine learning models. In this specific model, the data first passes through an encoder, comes out as an understanding and passes to a decoder. The decoder generates the output.
 
+## How to view the project
+1. Simply open the notebook file in the project by clicking it. 
+2. If it is showing any error, may be bacause of slow intenet or other issue open the link
+ 
+       https://nbviewer.jupyter.org/github/kumar-sam/project-7/blob/master/dlnd_language_translation_acad.ipynb
+
 ## Installation
 To run this project, following library need to be installed inside a local virtual environment
 
@@ -20,38 +26,25 @@ jupyter notebook
 ```
 You will be redirected to a browser tab. Navigate to the notebook file location through the notebook browser and open it.
 
-
-## Running the project
 once you open the notebook file, just go cell by cell and run it by
 ```
 Ctrl + Enter
 Shift + Enter
 ```
 
-![Terminal screen_1](https://github.com/Satyaki0924/language-translation-english-to-french/blob/master/res/lt1.png?raw=true "Terminal1")
+### Hyperparameters
 
-##### ** Choose 1 to train **
+Hyperparameter          | Number |
+----------------------- | ------ |
+Epochs                  | 10     |
+Batch size              | 512    |
+RNN size                | 128    |
+LSTM layers             | 2      |
+Encoding embedding size | 128    |
+Decoding embedding size | 128    |
+Learning rate           | 0.001  |
+Keep probability        | 0.55   |
 
-![Terminal screen_2](https://github.com/Satyaki0924/language-translation-english-to-french/blob/master/res/lt2.png?raw=true "Terminal2")
-
-![Terminal screen_3](https://github.com/Satyaki0924/language-translation-english-to-french/blob/master/res/lt3.png?raw=true "Terminal4")
-
-## Test the project
-Run the python file, following the instructions
-
-```
-python run_me.py
-```
-
-The outcome should look something like this:
-
-![Terminal screen_4](https://github.com/Satyaki0924/language-translation-english-to-french/blob/master/res/lt4.png?raw=true "Terminal4")
-
-## Plotting the graphs
-
-#### ** If the training goes well, the graphs should look something like this **
-
-![Plot](https://github.com/Satyaki0924/language-translation-english-to-french/blob/master/res/plot.png?raw=true "Plot")
 
 ### Author: Sanjeev kumar
-#### *** This project is strictly for educational purposes only. **
+#### *** This project is strictly for learning purposes only. **
