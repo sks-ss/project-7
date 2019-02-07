@@ -21,23 +21,11 @@ jupyter notebook
 You will be redirected to a browser tab. Navigate to the notebook file location through the notebook browser and open it.
 
 
-
-#### * Virtual enviornment will be setup and activated for you
-
-##### ** (If not activated, use the following command) **
-
+## Running the project
+once you open the notebook file, just go cell by cell and run it by
 ```
-source venv/bin/activate
-```
-Install the required packages using the following command.
-```
-pip install -r requirements.txt
-```
-
-## Train the project
-
-```
-python run_me.py
+Ctrl + Enter
+Shift + Enter
 ```
 
 ![Terminal screen_1](https://github.com/Satyaki0924/language-translation-english-to-french/blob/master/res/lt1.png?raw=true "Terminal1")
