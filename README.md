@@ -2,7 +2,7 @@
 This project uses sequence to sequence model of recurrent neural network to translate any piece of English text to French. I have used recurrent nets because while training on huge data, recurrent nets actually predict the outcome a lot better than any normal machine learning models. In this specific model, the data first passes through an encoder, comes out as an understanding and passes to a decoder. The decoder generates the output.
 
 ## How to view the project
-1. Simply open the notebook file in the project by clicking it. 
+1. Simply open the notebook file (dlnd_language_translation_acad.ipynb) in the project by clicking it. 
 2. If it is showing any error, may be bacause of slow intenet or other issue open the link
  
       [https://nbviewer.jupyter.org/github/kumar-sam/project-7/blob/master/dlnd_language_translation_acad.ipynb](https://nbviewer.jupyter.org/github/kumar-sam/project-7/blob/master/dlnd_language_translation_acad.ipynb) 
