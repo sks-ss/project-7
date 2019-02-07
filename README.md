@@ -50,13 +50,13 @@ Keep probability        | 0.55   |
 1.better model performance with 91% validation accuracy.  
 2.Sample output  
 
- Input
-   Word Ids:      [120, 172, 10, 36, 151, 179, 186]
-   English Words: ['he', 'saw', 'a', 'old', 'yellow', 'truck', '.']
+ Input  
+   Word Ids:      [120, 172, 10, 36, 151, 179, 186]  
+   English Words: ['he', 'saw', 'a', 'old', 'yellow', 'truck', '.']  
 
- Prediction
-   Word Ids:      [182, 99, 65, 195, 282, 5, 243, 69, 1]
-   French Words: il a de visiter le camion automne . <EOS>
+ Prediction  
+   Word Ids:      [182, 99, 65, 195, 282, 5, 243, 69, 1]  
+   French Words: il a de visiter le camion automne . <EOS>  
 
 
 ### Author: Sanjeev kumar
